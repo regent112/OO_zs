@@ -1,2 +1,5 @@
 z1/result.txt
 .idea/
+z2/.venv/
+z2/__pycache__/
+z2/result.csv
