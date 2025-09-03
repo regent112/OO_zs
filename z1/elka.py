@@ -9,7 +9,7 @@ if __name__ == '__main__':
     try:
         count_floor = int(args[1])
     except (ValueError, TypeError) as err:
-        raise err('Аргумент "Количество этажей" должен быть целым числом')
+        raise ValueError('Аргумент "Количество этажей" должен быть целым числом')
     if count_floor < 1:
         raise ValueError('Аргумент "Количество этажей" должен быть больше нуля')
     path_to_result = args[2]
